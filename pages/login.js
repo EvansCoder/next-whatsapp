@@ -17,16 +17,11 @@ function login() {
         <Image
           src={logo}
           alt="Whatsapp image"
-          width="200px"
-          height="200px"
-          className="mb-12"
+          width="100px"
+          height="100px"
         />
-        <button
-          onClick={signIn}
-          className="border-2 p-4 uppercase rounded mt-8 bg-white"
-        >
-          Sign In with Google
-        </button>
+      <button className='border flex items-center px-5 py-2 mt-16 bg-white rounded hover:border-blue-300 cursor-pointer' onClick={signIn}><Image src="https://cdn-teams-slug.flaticon.com/google.jpg" width={50} height={50}/><span>Sign in with Google</span></button>
+
       </div>
     </div>
   );
